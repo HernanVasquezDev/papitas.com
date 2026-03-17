@@ -37,4 +37,7 @@ if papitas:
 print("\n Sus papitas estan listas, si quieres añadir salsa a tus {papitas}")
 print("\n tenemos las siguiente opciones: ")
 
+print(f"\n Adicionalmente puedes elegir uno los siguientes toppings para potenciar tus {papitas}")
+print("\n Toppings: ")
+
 print(f"\n ¡Listo!, Sus {papitas} estan listas, Buen provecho :3...")
