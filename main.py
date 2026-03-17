@@ -1,3 +1,4 @@
+import time
 print("Hello, Bienvenido a papitas.com")
 
 print("\n" "="*2 + "\n")
@@ -27,9 +28,10 @@ else:
 
 if papitas:
     print(f"\n Preparando sus {papitas}... ")
-    print("\n" "="*5 + "\n")
-    print("Frintando Papitas")
-    print("\n" "="*5 + "\n")
-    print("Agregando Sabor a sus {papitas}")
+    time.sleep(2)
+    print("\n Frintando Papitas")
+    time.sleep(2)
+    print(f"\n Agregando Sabor de sus {papitas} ")
+    time.sleep(2)
 
 print(f"\n ¡Listo!, Sus {papitas} estan listas, Buen provecho :3...")
