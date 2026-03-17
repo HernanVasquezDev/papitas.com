@@ -34,4 +34,7 @@ if papitas:
     print(f"\n Agregando Sabor de sus {papitas} ")
     time.sleep(2)
 
+print("\n Sus papitas estan listas, si quieres añadir salsa a tus {papitas}")
+print("\n tenemos las siguiente opciones: ")
+
 print(f"\n ¡Listo!, Sus {papitas} estan listas, Buen provecho :3...")
